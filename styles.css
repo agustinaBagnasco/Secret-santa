@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('back.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    color: white;
+    display: flex;
+    width: 200px;
+    height:auto;
+    margin: 100px 0 0 500px;
+    padding: 50px;
+    border: solid white 1px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+h6 {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: rgba(203, 175, 175, 0.459);
+    color: white;
+    border-radius: 10px;
+}
+
+::placeholder {
+    color: white;
+}
+.submit{
+    margin: 8px 0;
+    width: 80px;
+    height: 50px;
+}
+.grid{
+    padding: 30px;
+}
+.btn-edit{
+    background-color: rgb(227, 196, 17);
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 70px;
+}
+.btn-delete{
+    background-color: rgb(207, 3, 3);
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 70px;
+}
+#tableBody td:nth-child(4){
+    display: flex;
+    justify-content: space-evenly;
+}
+
